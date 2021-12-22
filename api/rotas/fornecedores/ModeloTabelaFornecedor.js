@@ -11,7 +11,7 @@ const colunas = {
         allowNull: false,
     },
     categoria: {
-        type: Sequelize.ENUM("racao, brinquedos"),
+        type: Sequelize.ENUM("racao", "brinquedos"),
         allowNull: false,
     },
 };
